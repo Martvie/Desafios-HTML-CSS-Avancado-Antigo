@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 350px;
+}
+
+.container {
+    width: 98%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .images {
+    flex: 1 1 250px;
+    margin: 0 5px;
+    height: 450px;
+
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.container .images:nth-child(1){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/6.jpg);
+}
+
+.container .images:nth-child(2){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/3.jpg);
+}
+
+.container .images:nth-child(3){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/4.jpg);
+}
+
+.container .images:nth-child(4){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/5.jpg);
+}
+
+.container .images .autor {
+    margin: 20px;
+    color: white;
+}
