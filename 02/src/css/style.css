@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    background-color: #F7F7F7;
+    margin-top: 20px;
+}
+
+.main .main-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main .main-video .video {
+    width: 80%;
+    height: 220px;
+}
+
+.video {
+    background-color: #C4C4C4;
+}
