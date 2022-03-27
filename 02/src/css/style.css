@@ -4,11 +4,12 @@ html {
 
 body {
     display: grid;
-    width: 100%;
     grid-template-areas: 'main-video main-video recommendation';
     column-gap: 20px;
+
     background-color: hsl(0, 0%, 97%);
     margin-top:20px;
+    min-width: 890px;
 }
 
 /* video principal */
