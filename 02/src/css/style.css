@@ -28,6 +28,16 @@ body {
     font-weight: 700;
 }
 
+.main-video .descricao p {
+    font-size: 1.6rem;
+    margin-top: 9px;
+}
+
+.main-video .descricao .views {
+    font-size: 1.4rem;
+    margin-top: 7px;
+}
+
 /* cards de recomendações */
 
 .aside {
