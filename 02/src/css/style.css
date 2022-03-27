@@ -16,3 +16,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* cards de recomendações */
+
+.aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.recomendacao {
+    display: flex;
+    margin-top: 16px;
+}
