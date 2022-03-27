@@ -5,18 +5,20 @@ html {
 body {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 'main-video main-video recommendation';
     column-gap: 20px;
-    background-color: #F7F7F7;
-    margin-top: 20px;
+    background-color: hsl(0, 0%, 97%);
+    margin-top:20px;
 }
 
 /* video principal */
 
 .main .main-video {
+    grid-area: 'main-video';
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 35px;
 }
 
 .main-video .descricao {
