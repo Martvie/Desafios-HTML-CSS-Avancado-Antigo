@@ -28,3 +28,16 @@ body {
     display: flex;
     margin-top: 16px;
 }
+
+.recomendacao .descricao {
+ margin-left: 4px;
+}
+
+.recomendacao .descricao h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.recomendacao .descricao p {
+    font-size: 1.3rem;
+}
